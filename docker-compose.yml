@@ -5,16 +5,18 @@ services:
         # build: ./athletix
         image: hassanaziz0012/athletix
         ports:
-            - "3000:3000"
+            - ${APP_PORT}:3000
+        environment:
+            - NEXT_PUBLIC_BACKEND_URL=http://backend:8000
         depends_on:
             - backend
-        command: "npm run dev"
+        command: "npm run start"
 
     backend:
         # build: ./athletix_api
         image: hassanaziz0012/athletix_api
         ports:
-            - "8000:8000"
+            - ${BACKEND_PORT}:8000
         depends_on:
             - db
         restart: always
