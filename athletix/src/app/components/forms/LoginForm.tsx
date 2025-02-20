@@ -4,6 +4,7 @@ import Link from "next/link";
 import { loginUser, RequestMethod, sendRequest } from "@/app/apiUtils";
 import PrimaryButton from "../buttons/PrimaryButton";
 import { animatedIcons } from "@/app/icons";
+import { baseUrl } from "@/app/apiConfig";
 
 const LoginForm: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -85,6 +86,7 @@ const LoginForm: React.FC = () => {
                 />
             </div>
             <div className="text-rose-500 mb-2">{error}</div>
+            <p>{baseUrl}/users/login</p>
 
             <div className="flex gap-x-4 items-center">
                 <PrimaryButton
