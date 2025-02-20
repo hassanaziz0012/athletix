@@ -4,7 +4,6 @@ import Link from "next/link";
 import { loginUser, RequestMethod, sendRequest } from "@/app/apiUtils";
 import PrimaryButton from "../buttons/PrimaryButton";
 import { animatedIcons } from "@/app/icons";
-import { baseUrl } from "@/app/apiConfig";
 
 const LoginForm: React.FC = () => {
     const [formData, setFormData] = useState({
