@@ -1,0 +1,914 @@
+[
+    {
+        "name": "Ab Wheel",
+        "body_part": "Core"
+    },
+    {
+        "name": "Arnold Press (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Around The World",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Back Extension",
+        "body_part": "Back"
+    },
+    {
+        "name": "Back Extension (Machine)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Ball Slams",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Battle Ropes",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Bench Dip",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Bench Press (Barbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bench Press (Cable)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bench Press (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bench Press (Smith Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bench Press - Close Grip (Barbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bench Press - Wide Grip (Barbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Bent Over One Arm Row (Dumbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Bent Over Row (Band)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Bent Over Row (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Bent Over Row (Dumbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Bent Over Row - Underhand (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Bicep Curl (Barbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Bicep Curl (Cable)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Bicep Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Bicep Curl (Machine)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Bicycle Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Box Jump",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Box Squat (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Bulgarian Split Squat",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Burpee",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Cable Crossover",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Cable Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Cable Kickback",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Cable Pull Through",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Cable Twist",
+        "body_part": "Core"
+    },
+    {
+        "name": "Calf Press on Leg Press",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Calf Press on Seated Leg Press",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Chest Dip",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Dip (Assisted)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Fly",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Fly (Band)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Fly (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Press (Band)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chest Press (Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Chin Up",
+        "body_part": "Back"
+    },
+    {
+        "name": "Chin Up (Assisted)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Clean (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Clean and Jerk (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Climbing",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Concentration Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Cross Body Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Crunch (Machine)",
+        "body_part": "Core"
+    },
+    {
+        "name": "Crunch (Stability Ball)",
+        "body_part": "Core"
+    },
+    {
+        "name": "Cycling",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Deadlift (Band)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Deadlift (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Deadlift (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Deadlift (Smith Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Deadlift High Pull (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Decline Bench Press (Barbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Decline Bench Press (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Decline Bench Press (Smith Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Decline Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Deficit Deadlift (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Elliptical Machine",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Face Pull (Cable)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Flat Knee Raise",
+        "body_part": "Core"
+    },
+    {
+        "name": "Flat Leg Raise",
+        "body_part": "Core"
+    },
+    {
+        "name": "Front Raise (Band)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Front Raise (Barbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Front Raise (Cable)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Front Raise (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Front Raise (Plate)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Front Squat (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Goblet Squat (Kettlebell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Good Morning (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Hack Squat",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hack Squat (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hammer Curl (Band)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Hammer Curl (Cable)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Hammer Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Handstand Push Up",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hang Clean (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Hang Snatch (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Hanging Knee Raise",
+        "body_part": "Core"
+    },
+    {
+        "name": "Hanging Leg Raise",
+        "body_part": "Core"
+    },
+    {
+        "name": "High Knee Skips",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hiking",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Hip Abductor (Machine",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hip Adductor (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hip Thrust (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Hip Thrust (Bodyweight)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Incline Bench Press (Barbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Bench Press (Cable)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Bench Press (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Bench Press (Smith Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Chest Fly (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Chest Fly (Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Incline Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Incline Row (Dumbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Inverted Row (Bodyweight)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Iso-Lateral Chest Press (Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Iso-Lateral Row (Machine)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Jackknife Sit Up",
+        "body_part": "Core"
+    },
+    {
+        "name": "Jump Shrug (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Jump Squat",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Jumping Jack",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Jumprope",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Kettlebell Swing",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Kettlebell Turkish Get Up",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Knee Raise (Captain's Chair)",
+        "body_part": "Core"
+    },
+    {
+        "name": "Kneeling Pulldown (Band)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Knees to Elbows",
+        "body_part": "Core"
+    },
+    {
+        "name": "Lat Pulldown (Cable)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lat Pulldown (Machine)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lat Pulldown (Single Arm)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lat Pulldown - Underhand (Band)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lat Pulldown - Underhand (Cable)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lat Pulldown - Wide Grip (Cable)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Lateral Box Jump",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Lateral Raise (Band)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Lateral Raise (Cable)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Lateral Raise (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Lateral Raise (Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Leg Extension (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Leg Press",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Lunge (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Lunge (Bodyweight)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Lunge (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Lying Leg Curl (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Mountain Climber",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Muscle Up",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Oblique Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Overhead Press (Barbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Overhead Press (Cable)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Overhead Press (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Overhead Press (Smith Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Overhead Squat (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Pec Deck (Machine)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Pendlay Row (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Pistol Squat",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Plank",
+        "body_part": "Core"
+    },
+    {
+        "name": "Power Clean",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Power Snatch (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Preacher Curl (Barbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Preacher Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Pull Up",
+        "body_part": "Back"
+    },
+    {
+        "name": "Pull Up (Assisted)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Pull Up (Band)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Pullover (Dumbell)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Push Press",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Push Up",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Push Up (Band)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Push Up (Knees)",
+        "body_part": "Chest"
+    },
+    {
+        "name": "Rack Pull (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Reverse Crunch",
+        "body_part": "Core"
+    },
+    {
+        "name": "Reverse Curl (Band)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Reverse Curl (Barbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Reverse Curl (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Reverse Fly (Cable)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Reverse Fly (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Reverse Curl (Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Reverse Plank",
+        "body_part": "Core"
+    },
+    {
+        "name": "Romanian Deadlift (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Romanian Deadlift (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Rowing (Machine)",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Running",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "Russian Twist",
+        "body_part": "Core"
+    },
+    {
+        "name": "Seated Calf Raise (Plate Loaded)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Seated Leg Curl (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Seated Leg Press (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Seated Overhead Press (Barbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Seated Overhead Press (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Seated Row (Cable)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Seated Row (Machine)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Seated Wide-Grip Row (Cable)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Shoulder Press (Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Shoulder Press (Plate Loaded)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Shrug (Barbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Shrug (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Shrug (Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Shrug (Smith Machine)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "Side Bend (Cable)",
+        "body_part": "Core"
+    },
+    {
+        "name": "Side Bend (Dumbell)",
+        "body_part": "Core"
+    },
+    {
+        "name": "Side Plank",
+        "body_part": "Core"
+    },
+    {
+        "name": "Single Leg Bridge",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Sit Up",
+        "body_part": "Core"
+    },
+    {
+        "name": "Skullcrusher (Barbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Skullcrusher (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Snatch (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Snatch Pull (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Split Jerk (Barbell)",
+        "body_part": "Olympic"
+    },
+    {
+        "name": "Squat (Band)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Squat (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Squat (Bodyweight)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Squat (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Squat (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Squat Row (Band)",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Standing Calf Raise (Barbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Standing Calf Raise (Bodyweight)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Standing Calf Raise (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Standing Calf Raise (Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Standing Calf Raise (Smith Machine)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Step-up",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Still Leg Deadlift (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Stiff Leg Deadlift (Dumbell)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Straight Leg Deadlift (Band)",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Sumo Deadlift (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Sumo Deadlift High Pull (Barbell)",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Superman",
+        "body_part": "Core"
+    },
+    {
+        "name": "Swimming",
+        "body_part": "Cardio"
+    },
+    {
+        "name": "T Bar Row",
+        "body_part": "Back"
+    },
+    {
+        "name": "Thruster (Kettlebell)",
+        "body_part": "Full Body"
+    },
+    {
+        "name": "Toes To Bar",
+        "body_part": "Core"
+    },
+    {
+        "name": "Trap Bar Deadlift",
+        "body_part": "Legs"
+    },
+    {
+        "name": "Triceps Dip",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Dip (Assisted)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Extension",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Extension (Barbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Extension (Cable)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Extension (Dumbell)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Triceps Extension (Machine)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Upright Row (Barbell)",
+        "body_part": "Back"
+    },
+    {
+        "name": "Upright Row (Cable)",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Upright Row (Dumbell)",
+        "body_part": "Shoulders"
+    },
+    {
+        "name": "V Up",
+        "body_part": "Core"
+    },
+    {
+        "name": "Wide Pull Up",
+        "body_part": "Back"
+    },
+    {
+        "name": "Wrist Roller",
+        "body_part": "Arms"
+    },
+    {
+        "name": "Zercher Squat (Barbell)",
+        "body_part": "Legs"
+    }
+]
