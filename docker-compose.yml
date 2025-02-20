@@ -2,12 +2,15 @@ version: "3.8"
 
 services:
     frontend:
-        # build: ./athletix
-        image: hassanaziz0012/athletix
+        build:
+            context: ./athletix
+            args:
+                - NEXT_PUBLIC_BACKEND_PORT=${BACKEND_PORT}
+        # image: athletix
+        env_file: .env
         ports:
             - ${APP_PORT}:3000
-        environment:
-            - NEXT_PUBLIC_BACKEND_URL=http://backend:8000
+        
         depends_on:
             - backend
         command: "npm run start"

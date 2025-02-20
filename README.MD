@@ -25,7 +25,18 @@ cd athletix
 docker-compose up
 ```
 
-3. When the server is running, head over to http://localhost:3000 to use the app.
+3. When the server is running, head over to http://localhost:3001 to use the app.
+
+## Config
+### Changing ports
+- Changing the frontend's port is very straightforward. Just change the `APP_PORT` variable in the `.env` file.
+
+- Changing the backend port will require a rebuild of the frontend image, bcos of how NextJS works. Follow these steps:
+1. Change the `BACKEND_PORT` variable in the `.env` file.
+2. Run the app again with the `--build` flag. This will rebuild the frontend image with the new settings.
+```bash
+docker-compose up --build
+```
 
 ## About The Author
 

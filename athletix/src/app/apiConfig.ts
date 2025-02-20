@@ -1,1 +1,1 @@
-export const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+export const baseUrl = `http://localhost:${process.env.NEXT_PUBLIC_BACKEND_PORT}`;

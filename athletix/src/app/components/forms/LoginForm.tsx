@@ -86,7 +86,6 @@ const LoginForm: React.FC = () => {
                 />
             </div>
             <div className="text-rose-500 mb-2">{error}</div>
-            <p>{baseUrl}/users/login</p>
 
             <div className="flex gap-x-4 items-center">
                 <PrimaryButton
