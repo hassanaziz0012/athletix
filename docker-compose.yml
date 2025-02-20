@@ -6,7 +6,6 @@ services:
             context: ./athletix
             args:
                 - NEXT_PUBLIC_BACKEND_PORT=${BACKEND_PORT}
-        # image: athletix
         env_file: .env
         ports:
             - ${APP_PORT}:3000
@@ -16,7 +15,6 @@ services:
         command: "npm run start"
 
     backend:
-        # build: ./athletix_api
         image: hassanaziz0012/athletix_api
         ports:
             - ${BACKEND_PORT}:8000
