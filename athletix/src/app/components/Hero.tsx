@@ -3,10 +3,11 @@ import React from "react";
 import Container, { ContainerSizes } from "./Container";
 import Link from "next/link";
 import PrimaryButton from "./buttons/PrimaryButton";
+import BorderedImage from "./BorderedImage";
 
 export default function Hero() {
     return (
-        <div className="bg-[url('/images/hero-bg.jpg')] bg-cover bg-center relative isolate">
+        <section className="bg-[url('/images/hero-bg.jpg')] bg-cover bg-center relative isolate">
             <Container
                 size={ContainerSizes.extralarge}
                 className="h-full flex flex-col justify-center"
@@ -30,19 +31,11 @@ export default function Hero() {
                             </PrimaryButton>
                         </Link>
                     </div>
-                    <div className="relative isolate rounded-xl">
-                        <div className="relative">
-                            <img
-                                src="/images/athletix-dashboard-preview.png"
-                                alt="app dashboard"
-                                className="shadow rounded-xl"
-                            />
-                            <div className="absolute -top-4 left-4 bottom-4 -right-4 -z-10 bg-sky-500 rounded-xl"></div>
-                        </div>
-                    </div>
+                    
+                    <BorderedImage imgSrc="/images/athletix-dashboard-preview.png" altText="app dashboard" />
                 </div>
             </Container>
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-white/90 -z-10"></div>
-        </div>
+        </section>
     );
 }

@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import Hero from "./components/Hero";
-import WhyCreateThis from "./components/pages/WhyCreateThis";
+import WhyCreateThis from "./components/WhyCreateThis";
+import Footer from "./components/Footer";
+import Features from "./components/Features";
 
 export const metadata: Metadata = {
     title: "Athletix",
@@ -9,9 +11,11 @@ export const metadata: Metadata = {
 
 export default function Home() {
     return (
-        <section>
+        <div>
             <Hero />
+            <Features />
             <WhyCreateThis />
-        </section>
+            <Footer />
+        </div>
     );
 }

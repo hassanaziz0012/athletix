@@ -1,5 +1,5 @@
 import React from "react";
-import Container, { ContainerSizes } from "../Container";
+import Container, { ContainerSizes } from "./Container";
 import Link from "next/link";
 
 export default function WhyCreateThis() {
@@ -7,9 +7,9 @@ export default function WhyCreateThis() {
     const twitterLink = "https://x.com/nothassanaziz";
 
     return (
-        <div>
+        <section className="bg-white py-20">
             <Container size={ContainerSizes.extralarge}>
-                <div className="my-8 text-slate-600">
+                <div className="text-slate-600">
                     <h2 className="text-2xl mb-8 text-black">
                         Why did I create this app?
                     </h2>
@@ -85,6 +85,6 @@ export default function WhyCreateThis() {
                     </p>
                 </div>
             </Container>
-        </div>
+        </section>
     );
 }
