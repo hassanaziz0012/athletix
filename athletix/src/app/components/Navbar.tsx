@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Container, { ContainerSizes } from "./Container";
 import Link from "next/link";
 import icons from "../icons";
@@ -9,12 +9,21 @@ import useLoggedIn from "../hooks/useLoggedIn";
 
 export default function Navbar() {
     const [navOpen, setNavOpen] = useState(false);
+    const [isSelfHosted, setIsSelfHosted] = useState(false);
     const loggedIn = useLoggedIn();
     const path = usePathname();
 
     const toggleNav = () => {
         setNavOpen(!navOpen);
     };
+
+    useEffect(() => {
+        if (window.location.hostname.includes("vercel")) {
+            setIsSelfHosted(false);
+        } else {
+            setIsSelfHosted(true);
+        }
+    }, []);
 
     return (
         !path.startsWith("/app") && (
@@ -28,27 +37,31 @@ export default function Navbar() {
                             <button onClick={toggleNav}>{icons.menu}</button>
                         </div>
                         <div className="hidden sm:flex flex-row gap-x-10">
-                            {loggedIn === true ? (
-                                <Link
-                                    href={"/app/dashboard"}
-                                    className="hover:text-white duration-300"
-                                >
-                                    Dashboard
-                                </Link>
-                            ) : (
+                            {isSelfHosted === true && (
                                 <>
-                                    <Link
-                                        href={"/auth/login"}
-                                        className="hover:text-white duration-300"
-                                    >
-                                        Login
-                                    </Link>
-                                    <Link
-                                        href={"/auth/signup"}
-                                        className="hover:text-white duration-300"
-                                    >
-                                        Signup
-                                    </Link>
+                                    {loggedIn === true ? (
+                                        <Link
+                                            href={"/app/dashboard"}
+                                            className="hover:text-white duration-300"
+                                        >
+                                            Dashboard
+                                        </Link>
+                                    ) : (
+                                        <>
+                                            <Link
+                                                href={"/auth/login"}
+                                                className="hover:text-white duration-300"
+                                            >
+                                                Login
+                                            </Link>
+                                            <Link
+                                                href={"/auth/signup"}
+                                                className="hover:text-white duration-300"
+                                            >
+                                                Signup
+                                            </Link>
+                                        </>
+                                    )}
                                 </>
                             )}
                         </div>
@@ -75,27 +88,31 @@ export default function Navbar() {
                                 transition={{ duration: 0.3 }}
                                 className="sm:hidden flex flex-col items-stretch"
                             >
-                                {loggedIn === true ? (
-                                    <Link
-                                        href={"/app/dashboard"}
-                                        className="p-3 text-center hover:bg-slate-600 duration-300"
-                                    >
-                                        Dashboard
-                                    </Link>
-                                ) : (
+                                {isSelfHosted === true && (
                                     <>
-                                        <Link
-                                            href={"/auth/login"}
-                                            className="p-3 text-center hover:bg-slate-600 duration-300"
-                                        >
-                                            Login
-                                        </Link>
-                                        <Link
-                                            href={"/auth/signup"}
-                                            className="p-3 text-center hover:bg-slate-600 duration-300"
-                                        >
-                                            Signup
-                                        </Link>
+                                        {loggedIn === true ? (
+                                            <Link
+                                                href={"/app/dashboard"}
+                                                className="p-3 text-center hover:bg-slate-600 duration-300"
+                                            >
+                                                Dashboard
+                                            </Link>
+                                        ) : (
+                                            <>
+                                                <Link
+                                                    href={"/auth/login"}
+                                                    className="p-3 text-center hover:bg-slate-600 duration-300"
+                                                >
+                                                    Login
+                                                </Link>
+                                                <Link
+                                                    href={"/auth/signup"}
+                                                    className="p-3 text-center hover:bg-slate-600 duration-300"
+                                                >
+                                                    Signup
+                                                </Link>
+                                            </>
+                                        )}
                                     </>
                                 )}
                             </motion.div>

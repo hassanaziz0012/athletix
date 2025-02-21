@@ -25,7 +25,7 @@ export default function Hero() {
                             help you reach your fitness goals.
                         </p>
 
-                        <Link href={"/auth/signup"}>
+                        <Link href={"https://github.com/hassanaziz0012/athletix?tab=readme-ov-file#installation"} target="_blank">
                             <PrimaryButton onClick={() => {}}>
                                 Get Started
                             </PrimaryButton>
