@@ -29,7 +29,7 @@ export default function Features() {
             <Container size={ContainerSizes.extralarge}>
                 <h2 className="text-2xl mb-12">Features</h2>
 
-                <div className="flex sm:flex-col items-start justify-between gap-12">
+                <div className="flex flex-col sm:flex-row items-start justify-between gap-12">
                     <div className="flex flex-col gap-y-2 items-start">
                         {tabs.map((tab, i) => (
                             <button
