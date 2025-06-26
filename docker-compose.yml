@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+    frontend:
+        build:
+            context: ./athletix
+            args:
+                - NEXT_PUBLIC_BACKEND_PORT=${BACKEND_PORT}
+        env_file: .env
+        ports:
+            - ${APP_PORT}:3000
+        depends_on:
+            - backend
+        command: "npm run start"
+
+    backend:
+        image: hassanaziz0012/athletix_api
+        ports:
+            - ${BACKEND_PORT}:8000
+        depends_on:
+            - db
+        restart: always
+        environment:
+            - DATABASE_HOST=db
+            - PYTHONUNBUFFERED=1
+        command: >
+            sh -c "python manage.py migrate &&
+                python manage.py createdefaultexercises &&
+                python manage.py createdays &&
+                python manage.py runserver 0.0.0.0:8000"
+    db:
+        image: postgres:17beta2-bullseye
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_USER: athletix
+            POSTGRES_PASSWORD: athletix
+            POSTGRES_DB: athletix
+        volumes:
+            - pg_data:/var/lib/postgresql/data
+
+volumes:
+    pg_data:
